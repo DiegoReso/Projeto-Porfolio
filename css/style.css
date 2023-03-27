@@ -1,10 +1,12 @@
+@import "/css/box.css";
+@import "/css/button.css";
+@import "/css/title.css";
+@import "/css/subtitle.css";
+
+
 *{
     padding: 0;
     margin: 0;
-}
-
-body{  
-
 }
 
 
@@ -43,22 +45,6 @@ a::before{
     
 }
 
-.button{
-    display: inline-block;
-    background-color: #F25A70;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 40px;
-    box-shadow: 5px 5px 0px black;
-    transition: 500ms;
-}
-
-.button:hover{
-    transition: 500ms;
-    transform: scale(1.1);
-}
-
 .first-section{
     background-image: url(/img/wallpaper.jfif);
     background-repeat: no-repeat;
@@ -70,36 +56,4 @@ a::before{
     margin-top: 1px;
 }
 
-.initial{
-    color: #F25A70;
-    justify-content: space-evenly;
-    display:flex;
-    flex-direction: column;
-    font-family: 'Press Start 2P', cursive;
-    background-color: #3A4042;
-    width: 627px;
-    height: 184px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 5px 5px 1px #f25a7150;
-    margin-left: 91px;
-    margin-bottom: 38px;
-    align-items: center;
-    text-shadow: 3px 5px 0px black;
-    
-}
 
-.initial h2{
-    color: white;
-    font-size: 25px;
-    font-weight: lighter;
-}
-.download{
-    
-    margin-left: 181px;
-    box-shadow: 5px 5px 0px grey;
-}
-
-.contato{
-    box-shadow: 5px 5px 0px grey;
-}

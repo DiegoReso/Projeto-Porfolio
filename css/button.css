@@ -1,0 +1,26 @@
+
+.button{
+    display: inline-block;
+    background-color: #F25A70;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 40px;
+    box-shadow: 5px 5px 0px black;
+    transition: 500ms;
+}
+
+.button:hover{
+    transition: 500ms;
+    transform: scale(1.1);
+}
+
+.download{
+    
+    margin-left: 181px;
+    box-shadow: 5px 5px 0px grey;
+}
+
+.contato{
+    box-shadow: 5px 5px 0px grey;
+}
