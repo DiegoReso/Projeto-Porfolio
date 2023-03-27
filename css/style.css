@@ -2,6 +2,9 @@
 @import "/css/button.css";
 @import "/css/title.css";
 @import "/css/subtitle.css";
+@import "/css/banner.css";
+@import "/css/secondsection.css";
+@import "/css/skills.css";
 
 
 *{
@@ -45,15 +48,5 @@ a::before{
     
 }
 
-.first-section{
-    background-image: url(/img/wallpaper.jfif);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    padding-top: 116px;
-    width: 100%;
-    height: 807px;
-    margin-top: 1px;
-}
 
 

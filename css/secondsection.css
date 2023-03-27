@@ -1,0 +1,32 @@
+.section{
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 40px;
+    color: white;
+    text-shadow: 5px 4px 1px black;
+    height: 730px;
+    background-color: #F25A70;
+    border-bottom: 10px solid #7C5E99;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.bar {
+    box-sizing: border-box;
+    height: 35px;
+    border: 5px solid black;  
+    background: #ce2525;
+
+}
+
+.bar::-webkit-progress-bar{
+    background: #fafafa;
+}
+
+.right  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
