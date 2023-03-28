@@ -1,4 +1,5 @@
 .section{
+    
     font-family: 'Press Start 2P', cursive;
     padding-top: 40px;
     color: white;
@@ -10,9 +11,12 @@
 
 .section h1{
     text-align: center;
+    margin-bottom: 70px;
+    margin-top: 50px;
 }
 
 .bar {
+    
     box-sizing: border-box;
     height: 35px;
     border: 5px solid black;  
@@ -30,3 +34,57 @@
     justify-content: space-around;
 }
 
+.wraper{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.wraper .skill{
+    width: 430px;
+    margin-bottom: 25px;
+
+}
+
+.wraper .bar{
+    width: 320px;
+}
+
+.wraper .skill:nth-child(odd){
+    margin-right: 100px;
+}
+
+.section .skill-title{
+    margin-bottom: 25px;
+}
+
+.section.-second{
+    padding-right: 30px;
+    background-color: black;
+    height: 520px;
+    border-bottom: 10px solid #F25A70;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.project-img{ 
+    padding: 5px;
+    background: #7C5E99;
+    width: 280px;
+    height: 280px;
+    box-shadow: 5px 5px 1px white;
+}
+
+
+.project-img.-pink{
+    background-color: #F25A70;
+}

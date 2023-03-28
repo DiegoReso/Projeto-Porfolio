@@ -1,0 +1,51 @@
+.carousel{
+    display: flex;
+    justify-content: space-between;
+    position: relative; 
+    overflow: hidden;
+    
+}
+
+
+.carousel::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 8px;
+    top:38px;
+    width:calc(100% - 100px) ;
+    background-color: black;
+    left:50px;
+  
+}
+
+
+.carousel::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top:38px;
+    border: 5px dashed black;
+    width:calc(100% - 9px) ;
+    left: 0px;
+  
+}
+
+
+.carousel .button-arrow{
+    position: absolute;
+    bottom: 70px;
+    
+}
+
+.carousel .button-arrow.-left{
+    
+}
+
+.carousel .button-arrow.-right{
+    right:15px
+}
+
+
+
+

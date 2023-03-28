@@ -1,0 +1,11 @@
+.carousel .items{
+    width: 95%;
+    overflow: hidden;
+    
+}
+
+.carousel .elements{
+    display: flex;
+    justify-content: space-around; 
+    transition: transform 100ms ease-in ;
+}
