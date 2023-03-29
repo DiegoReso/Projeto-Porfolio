@@ -1,0 +1,44 @@
+.section.-fourth{
+    text-shadow: none;
+    background-color: rgb(78, 77, 77);
+    
+}
+
+.-fourth label, input, textarea{
+    font-family: 'Fira Code', monospace; 
+}
+
+.section.-fourth .form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.section.-fourth .items{
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.section.-fourth .text{
+    border: 5px solid black;
+    height: 25px;
+    font-size: 20px;
+}
+
+.section.-fourth .textarea{
+    border: 5px solid black;
+    font-size: 20px;
+    
+}
+
+.button.-form{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.button.-form:hover{
+    transform: none;
+}
