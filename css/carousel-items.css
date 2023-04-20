@@ -1,11 +1,13 @@
 .carousel .items{
-    width: 95%;
+    width: 90%;
     overflow: hidden;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .carousel .elements{
     display: flex;
     justify-content: space-around; 
     transition: transform 100ms ease-in ;
+    margin-left: 25px;
 }

@@ -23,6 +23,7 @@
 
 body{
     background-color: #a8a3a4;
+    
 }
 
 .container{
@@ -63,7 +64,7 @@ a{
 .principal{
     margin-left: auto;
     margin-right: auto;
-    width:2000px;
+    width:1800px;
 }
 
 
